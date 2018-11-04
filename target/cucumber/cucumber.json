@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 709049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeRegressionHook()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login is not happening with incorrect username and incorrect password",
+        "description": "",
+        "id": "login-functionality;login-is-not-happening-with-incorrect-username-and-incorrect-password",
+        "after": [
+          {
+            "result": {
+              "duration": 172344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterRegressionHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 277965875,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on login page",
+            "match": {
+              "location": "firstCuck.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4241041,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters username \"Deejay\" and password \"Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deejay",
+                  "offset": 22
+                },
+                {
+                  "val": "Testing",
+                  "offset": 44
+                }
+              ],
+              "location": "firstCuck.user_enters_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279685,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 10
+                }
+              ],
+              "location": "firstCuck.login_is_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 87669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeRegressionHook()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Signup happening with correct details",
+        "description": "",
+        "id": "login-functionality;signup-happening-with-correct-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 142408,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterRegressionHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 103064,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on signup page",
+            "match": {
+              "location": "firstCuck.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 542265,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Signup is done using \"Deepak\",\"Jindal\",\"a1\",\"a12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepak",
+                  "offset": 22
+                },
+                {
+                  "val": "Jindal",
+                  "offset": 31
+                },
+                {
+                  "val": "a1",
+                  "offset": 40
+                },
+                {
+                  "val": "a12",
+                  "offset": 45
+                }
+              ],
+              "location": "firstCuck.signup_is_done_using(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217676,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Signup is successfull",
+            "match": {
+              "location": "firstCuck.signup_is_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 186457,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeRegressionHook()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Signup happening with correct details",
+        "description": "",
+        "id": "login-functionality;signup-happening-with-correct-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 69707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterRegressionHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67141,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on signup page",
+            "match": {
+              "location": "firstCuck.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226657,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Signup is done using \"QC\",\"Jindal\",\"a21\",\"a22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QC",
+                  "offset": 22
+                },
+                {
+                  "val": "Jindal",
+                  "offset": 27
+                },
+                {
+                  "val": "a21",
+                  "offset": 36
+                },
+                {
+                  "val": "a22",
+                  "offset": 42
+                }
+              ],
+              "location": "firstCuck.signup_is_done_using(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69280,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Signup is successfull",
+            "match": {
+              "location": "firstCuck.signup_is_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1785881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeRegressionHook()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Signup happening with correct details",
+        "description": "",
+        "id": "login-functionality;signup-happening-with-correct-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 69707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterRegressionHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70135,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on signup page",
+            "match": {
+              "location": "firstCuck.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 591445,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Signup is done using \"Happy\",\"Testing\",\"a31\",\"a32\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Happy",
+                  "offset": 22
+                },
+                {
+                  "val": "Testing",
+                  "offset": 30
+                },
+                {
+                  "val": "a31",
+                  "offset": 40
+                },
+                {
+                  "val": "a32",
+                  "offset": 46
+                }
+              ],
+              "location": "firstCuck.signup_is_done_using(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192872,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Signup is successfull",
+            "match": {
+              "location": "firstCuck.signup_is_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Hooks.feature"
+  }
+]
